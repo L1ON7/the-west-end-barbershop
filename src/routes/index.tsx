@@ -11,7 +11,7 @@ import cut2 from "@/assets/cut-2.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "West End Barbershop — Cuts, Style & Community | Portland, ME" },
+      { title: "West End Barbershop - Cuts, Style & Community | Portland, ME" },
       { name: "description", content: "Classic neighborhood barbershop in Portland's West End. Walk-ins welcome. Quality haircuts, beard trims, hot towel shaves at honest prices." },
     ],
   }),
@@ -32,15 +32,15 @@ const NAV = [
 ];
 
 const SERVICES = [
-  { icon: Scissors, title: "Haircuts", desc: "Sharp classic cuts, modern fades, kids' cuts — tailored to your style." },
+  { icon: Scissors, title: "Haircuts", desc: "Sharp classic cuts, modern fades, kids' cuts - tailored to your style." },
   { icon: Scissors, title: "Beard Trims", desc: "Clean lines, perfect shape. Keep your beard looking dialed-in." },
   { icon: Scissors, title: "Hot Towel Shaves", desc: "Old-school straight razor shave with hot towel finish. Pure relaxation." },
-  { icon: Scissors, title: "Head Shaves", desc: "Smooth, even head shaves done right — clean, comfortable, no nicks." },
+  { icon: Scissors, title: "Head Shaves", desc: "Smooth, even head shaves done right - clean, comfortable, no nicks." },
 ];
 
 const WHY = [
   { icon: Users, title: "Walk-Ins Welcome", desc: "No appointment, no problem. Stop in any time during business hours." },
-  { icon: DollarSign, title: "Affordable Pricing", desc: "Honest neighborhood prices — quality cuts without the markup." },
+  { icon: DollarSign, title: "Affordable Pricing", desc: "Honest neighborhood prices - quality cuts without the markup." },
   { icon: Heart, title: "Friendly Neighborhood Shop", desc: "Real conversations, real community. You're a neighbor, not a number." },
 ];
 
@@ -55,7 +55,7 @@ const REVIEWS = [
   { name: "Aaron Chadbourne", text: "So nice to have a new neighborhood barbershop in the West End of Portland. Love that they're open until 6pm so I can sneak in after work. Awesome cut and beard trim. Heather is a pro with lots of experience. Walk in with no appointment! Will be back often!" },
   { name: "Jessica Jackman", text: "I brought my son here for his first ever haircut. Heather did such an amazing job! Price was very reasonable and parking was a breeze. Highly recommend this establishment!" },
   { name: "Prince Tyrion", text: "Walked in and got a great haircut and some good conversation. Perfect barber shop experience!" },
-  { name: "Michael Boudewyns", text: "Heather is fantastic! She's cut my hair since 2017. Plus, she offers the best price for a haircut in town. Amazing hours — open even on Sundays!" },
+  { name: "Michael Boudewyns", text: "Heather is fantastic! She's cut my hair since 2017. Plus, she offers the best price for a haircut in town. Amazing hours - open even on Sundays!" },
 ];
 
 const HOURS = [
@@ -208,7 +208,7 @@ function Home() {
             <div className="space-y-5 text-lg leading-relaxed text-muted-foreground">
               <p>
                 West End Barbershop was started by <strong className="text-navy">Heather</strong>, a longtime West End
-                resident who wanted to give the neighborhood a place to call its own — somewhere you could grab a quality
+                resident who wanted to give the neighborhood a place to call its own - somewhere you could grab a quality
                 cut without dropping a paycheck.
               </p>
               <p>
@@ -217,7 +217,7 @@ function Home() {
                 air, and the kind of cuts that get people talking.
               </p>
               <p className="text-navy font-semibold italic font-display text-xl pt-2">
-                "We're not just cutting hair — we're building a neighborhood."
+                "We're not just cutting hair - we're building a neighborhood."
               </p>
             </div>
           </div>
