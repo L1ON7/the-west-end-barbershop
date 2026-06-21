@@ -1,15 +1,13 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
-import { nitro } from "nitro/vite";
+
+let preset;
+if (process.env.NETLIFY) preset = "netlify";
+else if (process.env.VERCEL) preset = "vercel";
 
 export default defineConfig({
-  nitro: { preset: "vercel" },
+  nitro: preset ? { preset } : undefined,
   tanstackStart: {
     server: { entry: "server" },
-  },
-  vite: {
-    plugins: [
-      nitro({ preset: "vercel" }),
-    ].filter(Boolean),
   },
 });
 
